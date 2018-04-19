@@ -20,3 +20,23 @@ strong{
 .navbar-brand{
     height: auto;
 }
+
+
+textarea {
+    min-height: 250px;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    background-color: orangered;
+}
+
+.actived {
+    color: orangered;
+}
