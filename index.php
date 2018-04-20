@@ -21,6 +21,8 @@ function displayFile(string $dirPath)
                 } else {
                     echo '<li><a href="?filePath=' . $dirPath . '&fileName=' . $file . '">' . $file . "</a></li>";
                 }
+            }else {
+                echo '<li><a href="?filePath=' . $dirPath . '&fileName=' . $file . '">' . $file . "</a></li>";
             }
             if (is_dir($dirPath . '/' . $file)) {
                 displayFile($dirPath . '/' . $file);
